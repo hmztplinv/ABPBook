@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "AbpBook.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44380",
+      "path": "../../../src/AbpBook.Web/AbpBook.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

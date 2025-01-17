@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpBook.Application": {
+      "path": "src/AbpBook.Application/AbpBook.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.Application.Tests": {
+      "path": "test/AbpBook.Application.Tests/AbpBook.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.Domain.Shared": {
+      "path": "src/AbpBook.Domain.Shared/AbpBook.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.Application.Contracts": {
+      "path": "src/AbpBook.Application.Contracts/AbpBook.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.HttpApi": {
+      "path": "src/AbpBook.HttpApi/AbpBook.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.HttpApi.Client": {
+      "path": "src/AbpBook.HttpApi.Client/AbpBook.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.Web": {
+      "path": "src/AbpBook.Web/AbpBook.Web.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.Web.Tests": {
+      "path": "test/AbpBook.Web.Tests/AbpBook.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.EntityFrameworkCore.Tests": {
+      "path": "test/AbpBook.EntityFrameworkCore.Tests/AbpBook.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.EntityFrameworkCore": {
+      "path": "src/AbpBook.EntityFrameworkCore/AbpBook.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.TestBase": {
+      "path": "test/AbpBook.TestBase/AbpBook.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.Domain.Tests": {
+      "path": "test/AbpBook.Domain.Tests/AbpBook.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpBook.HttpApi.Client.ConsoleTestApp/AbpBook.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpBook.DbMigrator": {
+      "path": "src/AbpBook.DbMigrator/AbpBook.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpBook.Domain": {
+      "path": "src/AbpBook.Domain/AbpBook.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
